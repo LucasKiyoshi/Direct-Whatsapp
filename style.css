@@ -145,9 +145,3 @@
                 width: 90%;
             }
         }
-        
-        @media(max-width: 1366px) {
-            body {
-                margin-top: 4rem;
-            }
-        }
