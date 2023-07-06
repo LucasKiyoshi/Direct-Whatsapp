@@ -11,24 +11,22 @@
 </head>
 
 <body>
-    <div class="back">
-        <div class="container">
-            <div class="box">
-                <div class="name">
-                    <img src="./img/icons8-whatsapp-100.svg" alt="Whatsapp Icon">
-                    <img src="./img/Whatsapp Direct.svg" alt="Whatsapp Direct">
+    <div class="container">
+        <div class="box">
+            <div class="name">
+                <img src="./img/icons8-whatsapp-100.svg" alt="Whatsapp Icon">
+                <img src="./img/Whatsapp Direct.svg" alt="Whatsapp Direct">
+            </div>
+            <div class="form">
+                <div class="number-telphone">
+                    <label for="number-">Numero da Linha</label>
+                    <input type="text" id="number" name="number" placeholder="+XX(XX)XXXXXXXXX">
                 </div>
-                <div class="form">
-                    <div class="number-telphone">
-                        <label for="number-">Numero da Linha</label>
-                        <input type="text" id="number" name="number" placeholder="+XX(XX)XXXXXXXXX">
-                    </div>
-                    <div class="message">
-                        <label for="message">Mensagem</label>
-                        <textarea type="text" name="message" id="message" cols="50" rows="10" placeholder="Escreva a sua mensagem"></textarea>
-                    </div>
-                    <button type="submit" onclick="redirectToWhatsApp()">Chamar no Whatsapp</button>
+                <div class="message">
+                    <label for="message">Mensagem</label>
+                    <textarea type="text" name="message" id="message" cols="50" rows="10" placeholder="Escreva a sua mensagem"></textarea>
                 </div>
+                <button type="submit" onclick="redirectToWhatsApp()">Chamar no Whatsapp</button>
             </div>
         </div>
     </div>
